@@ -13,15 +13,166 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31394eda-ac6c-48f2-9dff-aa3e5be36507" name="Default Changelist" comment="Improved the performance of the game parser">
+    <list default="true" id="31394eda-ac6c-48f2-9dff-aa3e5be36507" name="Default Changelist" comment="Update tasks">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/controllers/GamesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/controllers/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/DeveloperService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/GenreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/PlatformService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/SectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/gamesDb/GamesDbServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/newsDb/NewsDbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_195.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_10_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_10_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_10_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_4_23_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/parsers/GamesParserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/parsers/GamesParserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/GameRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/gamesDbService/GamesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/gamesDbService/GamesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/schedulers/ScheduledGamesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/schedulers/ScheduledGamesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/parsers/IgromaniaNewsParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/parsers/IgromaniaNewsParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/newsDbService/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/newsDbService/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/config/PersistenceJpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/config/PersistenceJpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/controllers/NewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/parsers/GamesParserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/parsers/GamesParserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/parsers/IgromaniaGamesParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/parsers/IgromaniaGamesParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/parsers/IgromaniaNewsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/parsers/IgromaniaNewsParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/parsers/tasks/GamesParserTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/parsers/tasks/GamesParserTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dao/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dao/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/DeveloperRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dao/DeveloperRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dao/GameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/GenreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dao/GenreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/PlatformRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dao/PlatformRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/SectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dao/SectionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dao/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/domain/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/domain/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/domain/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/domain/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/LongIdEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/domain/LongIdEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/domain/Platform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/domain/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dto/ArticleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dto/ArticleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dto/AuthUserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dto/AuthorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dto/AuthorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dto/GameDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dto/GameDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dto/JwtUserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dto/LongIdEntityDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dto/LongIdEntityDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dto/SectionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/dto/SectionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/enums/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/persistence/interfaces/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/persistence/interfaces/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/security/jwt/JWTConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/security/jwt/JWTFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/security/jwt/JwtAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/security/jwt/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/security/jwt/TokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/DeveloperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/DeveloperServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/GameServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/GenreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/GenreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/PlatformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/PlatformServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/SectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/common/SectionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/authServices/UserDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/authServices/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/authServices/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/gamesDbService/GamesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/gamesDbService/IGamesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/gamesDb/GamesDbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/mappers/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/mappers/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/mappers/GameMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/mappers/GameMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/mappers/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/newsDbService/INewsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/newsDbService/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/newsDb/NewsDbServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/schedulers/ScheduledGamesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/schedulers/ScheduledGamesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/schedulers/ScheduledNewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/schedulers/ScheduledNewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/schedulers/ScheduledNewsUpdaterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/services/schedulers/ScheduledNewsUpdaterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/utils/Constraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/utils/Constraints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/utils/DateParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/igromania/server/utils/DateParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/server/ServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/ServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/config/PersistenceJpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/controllers/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/controllers/NewsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/parsers/IgromaniaNewsParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dao/ArticleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dao/AuthorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dao/SectionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/domain/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/domain/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/domain/LongIdEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/domain/Section.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dto/ArticleDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dto/AuthUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dto/AuthorDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dto/JwtUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dto/LongIdEntityDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dto/SectionDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/persistence/enums/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/security/jwt/JWTConfigurer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/security/jwt/JWTFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/security/jwt/JwtAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/security/jwt/JwtAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/security/jwt/TokenProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/ArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/AuthorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/SectionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/authServices/UserDetailServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/authServices/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/authServices/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/mappers/ArticleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/mappers/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/newsDbService/INewsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kinopoisk/server/services/newsDbService/NewsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/kinopoisk/server/ServerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +183,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,22 +216,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/security" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Артур\Desktop\server\src\main\java\ru\kinopoisk\server\config" />
+      <recent name="C:\Users\Артур\Desktop\server\src\main\java\ru\kinopoisk\server\security" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Артур\Desktop\server" />
       <recent name="C:\Users\Артур\Desktop\server\src\main\resources" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Артур\Desktop\server\src\main\java\ru\kinopoisk\server\security" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
+  <component name="RunManager" selected="Spring Boot.ServerApplication (1)">
     <configuration name="DateParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.server.utils.DateParser" />
       <module name="server" />
@@ -120,19 +273,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IgromaniaNewsParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.server.parsers.IgromaniaNewsParser" />
-      <module name="server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.kinopoisk.server.parsers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.server.parsers.Threads.TestThread" />
       <module name="server" />
@@ -146,6 +286,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igromania.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.igromania.server.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.kinopoisk.server.ServerApplication" />
@@ -155,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ServerApplication (1)" />
         <item itemvalue="Application.GamesParserService" />
         <item itemvalue="Application.IgromaniaGamesParser" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.DateParser" />
-        <item itemvalue="Application.IgromaniaNewsParser" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +361,15 @@
       <workItem from="1607330517164" duration="6336000" />
       <workItem from="1607370052532" duration="8047000" />
       <workItem from="1607416334918" duration="6550000" />
-      <workItem from="1607423114870" duration="3086000" />
+      <workItem from="1607423114870" duration="3128000" />
+      <workItem from="1607430027907" duration="3931000" />
+      <workItem from="1607442261360" duration="4186000" />
+      <workItem from="1607446572296" duration="65000" />
+      <workItem from="1607501731917" duration="898000" />
+      <workItem from="1607504495089" duration="1464000" />
+      <workItem from="1607509271269" duration="8672000" />
+      <workItem from="1607518065909" duration="2000" />
+      <workItem from="1621159807599" duration="5254000" />
     </task>
     <task id="LOCAL-00001" summary="Add parser, entities and models for page news">
       <created>1605623124562</created>
@@ -297,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607370220284</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Corrected the OutOfMemoryException in GamesService">
+      <created>1607426383154</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607426383154</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,130 +512,58 @@
     <MESSAGE value="Added GamesParserService with multithreading, add entities and repos for games," />
     <MESSAGE value="Add games db service" />
     <MESSAGE value="Improved the performance of the game parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved the performance of the game parser" />
+    <MESSAGE value="Corrected the OutOfMemoryException in GamesService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected the OutOfMemoryException in GamesService" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="859" y="411" width="729" height="217" key="#Assign_Data_Sources" timestamp="1605623080308">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1621164573851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="859" y="411" width="729" height="217" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1605623080308" />
-    <state x="552" y="179" key="#Getter_Template" timestamp="1606232027626">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621164573851" />
+    <state x="673" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621162760588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#Getter_Template/0.0.1920.1040@0.0.1920.1040" timestamp="1606232027626" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605785218448">
+    <state x="673" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621162760588" />
+    <state width="1877" height="694" key="GridCell.Tab.0.bottom" timestamp="1621164961119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605785218448" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1607406075541">
+    <state width="1877" height="694" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621164961119" />
+    <state width="1877" height="694" key="GridCell.Tab.0.center" timestamp="1621164961119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607406075541" />
-    <state x="612" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605711226161">
+    <state width="1877" height="694" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621164961119" />
+    <state width="1877" height="694" key="GridCell.Tab.0.left" timestamp="1621164961119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605711226161" />
-    <state x="438" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605763952968">
+    <state width="1877" height="694" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621164961119" />
+    <state width="1877" height="694" key="GridCell.Tab.0.right" timestamp="1621164961119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="438" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605763952968" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606231184276">
+    <state width="1877" height="694" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621164961119" />
+    <state width="1877" height="694" key="GridCell.Tab.1.bottom" timestamp="1621164961119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606231184276" />
-    <state x="745" y="261" key="#toString()_Generation_Settings" timestamp="1606232093298">
+    <state width="1877" height="694" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621164961119" />
+    <state width="1877" height="694" key="GridCell.Tab.1.center" timestamp="1621164961119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="745" y="261" key="#toString()_Generation_Settings/0.0.1920.1040@0.0.1920.1040" timestamp="1606232093298" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1607424453826">
+    <state width="1877" height="694" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621164961119" />
+    <state width="1877" height="694" key="GridCell.Tab.1.left" timestamp="1621164961119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607424453826" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1607424453826">
+    <state width="1877" height="694" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621164961119" />
+    <state width="1877" height="694" key="GridCell.Tab.1.right" timestamp="1621164961119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607424453826" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1607424453826">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607424453826" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1607424453826">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607424453826" />
-    <state width="1877" height="262" key="GridCell.Tab.1.bottom" timestamp="1607424453826">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607424453826" />
-    <state width="1877" height="262" key="GridCell.Tab.1.center" timestamp="1607424453826">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607424453826" />
-    <state width="1877" height="262" key="GridCell.Tab.1.left" timestamp="1607424453826">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607424453826" />
-    <state width="1877" height="262" key="GridCell.Tab.1.right" timestamp="1607424453826">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607424453826" />
-    <state width="1877" height="228" key="GridCell.Tab.2.bottom" timestamp="1607423104351">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="228" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607423104351" />
-    <state width="1877" height="228" key="GridCell.Tab.2.center" timestamp="1607423104351">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="228" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607423104351" />
-    <state width="1877" height="228" key="GridCell.Tab.2.left" timestamp="1607423104351">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="228" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607423104351" />
-    <state width="1877" height="228" key="GridCell.Tab.2.right" timestamp="1607423104351">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="228" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607423104351" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1605785256843">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605785256843" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1605781693261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605781693261" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1605622679810">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605622679810" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607370226369">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607370226369" />
-    <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605621125244">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1040@0.0.1920.1040" timestamp="1605621125244" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1605788720758">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605788720758" />
-    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605622743603">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605622743603" />
+    <state width="1877" height="694" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621164961119" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/gamesDbService/GamesService.java</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/igromania/server/services/gamesDb/GamesDbServiceImpl.java</url>
+          <line>53</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/kinopoisk/server/services/gamesDbService/GamesService.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
